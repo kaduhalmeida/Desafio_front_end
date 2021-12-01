@@ -1,0 +1,73 @@
+header {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  -ms-grid-gap: 0.2rem;
+  grid-gap: 0.2rem;
+  background-color: #294f6b;
+  height: 705px;
+  left: 0px;
+  top: 0px;
+  padding: 2rem;
+  opacity: 0.92;
+}
+
+header p {
+  width: 10px;
+}
+
+.cabecalho {
+  width: 100%;
+  margin: auto;
+}
+
+.destaque {
+background-color: #FFFFFF;
+
+}
+
+.cod {
+margin-left: 380%;
+margin-bottom: 200%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 4 / 4;
+  -ms-grid-row: 4 / 4;
+  grid-column: 4 / 4;
+  grid-row: 4 / 4;
+
+
+}
+
+.titulo__desc {
+  padding: 39px 39px 139px 29px;
+  
+  margin-top: 240px;
+  margin-left: -470px ;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1 / 1;
+  -ms-grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  
+
+}
+
+.vaga__descricao {
+  padding: 42px 42px 239px 32px;
+  border-style: hidden;
+  margin-top: 250px;
+  margin-left: -470px ;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-column: 1 / 1;
+  -ms-grid-row: 1 / 1;
+  grid-column: 1 / 1;
+  grid-row: 1 / 1;
+  
+
+}

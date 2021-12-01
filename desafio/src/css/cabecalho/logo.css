@@ -1,0 +1,16 @@
+.logo {
+    
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-column: 2 / 3;
+    -ms-grid-row: 2 / 3;
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+    width: 192px;
+    height: 68px;
+    left: 284px;
+    top: 42px;
+    padding-top: 50px;
+    
+
+}

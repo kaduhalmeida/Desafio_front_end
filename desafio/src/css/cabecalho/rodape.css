@@ -1,0 +1,61 @@
+.beneficios {
+    display: inline;
+	margin: 0 0 0 0;
+    
+
+}
+
+.alimentacao {
+display: inline;
+}
+
+.alimentacao:hover{
+
+    border: orange;
+    border-style: solid;
+    color: #C78C19;
+    cursor: pointer;
+}
+
+.transporte:hover{
+    
+    border: orange;
+    border-style: solid;
+    color: #C78C19;
+    cursor: pointer;
+}
+.odonto:hover{
+    
+    border: orange;
+    border-style: solid;
+    color: #C78C19;
+    cursor: pointer;
+}
+
+.medico:hover{
+    
+    border: orange;
+    border-style: solid;
+    color: #C78C19;
+    cursor: pointer;
+}
+
+.botao__rodape {
+    margin-left: 10px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.botao__vaga{
+    margin-right: -190px;
+  width: 10%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}

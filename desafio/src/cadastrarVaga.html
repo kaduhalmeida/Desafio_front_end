@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <link href="#" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Desafio FrontEnd</title>
+    <link href="./css/normalize.css" rel="stylesheet" />
+    <link href="./css/reset.css" rel="stylesheet" />
+    <link href="./css/cabecalho/cabecalho.css" rel="stylesheet" />
+    <link href="./logo.png" rel="stylesheet" />
+    <link href="./css/cabecalho/menu-item.css" rel="stylesheet" />
+    <link href="./css/cabecalho/menu-link.css" rel="stylesheet" />
+    <link href="./css/cabecalho/menu-lista.css" rel="stylesheet" />
+    <link href="./css/cabecalho/busca.css" rel="stylesheet" />
+    <link href="./css/formulario/formulario.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <section>
+        <div class="cabecalho">
+          <div>
+            <h1>
+              <img
+                class="logo"
+                src="./logo.png"
+                alt="City Connect"
+              />
+            </h1>
+          </div>
+          <div>
+            <nav class="menu">
+              <ul class="menu__lista">
+                <li class="menu__item">
+                  <a class="menu__ajuda">Precisa de ajuda? </a>
+                </li>
+                <li class="menu__item"><a class="menu__entrar">Entrar </a></li>
+                <li class="menu__item">
+                  <a class="menu__vaga">Menu Principal</a>
+                </li>
+              </ul>
+            </nav>
+        </div>
+        </div>
+      </section>
+    
+    </header>
+
+    <main>
+      <main>
+        <form class="formulario">
+         <div class= "cadastro">
+          <fieldset class ="caixa__select">
+            <select class="selecao__cidade">
+              <option>Cidade</option>
+              <option>Barra Mansa</option>
+              <option>Volta Redonda</option>
+              <option>Resende</option>
+            </select>
+
+            <select class="selecao__empresa">
+              <option>Empresa</option>
+              <option>Carrefour</option>
+              <option>Nike</option>
+              <option>Adidas</option>
+            </select>
+          </fieldset>
+
+          <textarea cols="70" rows="10" id="descricao" class="campo__descricao" placeholder="Descreva aqui um pouco mais sobre a vaga" required></textarea>
+          <textarea cols="70" rows="10" id="mensagem" class="campo__mensagem" placeholder="Cite alguns pontos importantes que o candidato deve atentar" required></textarea>
+  
+          <fieldset class="caixa__box">
+            <legend>Quais os beneficios que você oferece?</legend>
+            <label class="box__transporte"><input type="checkbox" checked>Vale Transporte</label>
+            <label class="box__alimentacao"><input type="checkbox" checked>Vale Alimentação</label>
+            <label class="box__saude"><input type="checkbox" checked>Plano de Saude</label>
+            <label class="box__cultura"><input type="checkbox" checked>Vale Cultura</label>
+            <label class="box__outros"><input type="checkbox" checked>Outros</label>
+
+
+          </fieldset>
+          <div class="botao">
+          <input type="submit" value="Publicar nova nota" class="enviar">
+        </div> 
+        </div>
+        </form>
+  </body>
+</html>

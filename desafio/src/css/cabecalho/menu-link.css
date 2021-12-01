@@ -1,0 +1,59 @@
+.menu__ajuda {
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 8px;
+	text-decoration: none;
+    display: inline;
+	margin: 0 0 0 15px;
+    padding: 20px;
+}
+
+.menu__ajuda:hover {
+    
+	text-decoration: underline;
+    cursor: pointer;
+}
+
+.menu__entrar {
+    color: #ffffff;
+    background:#4F7FA3;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+	text-decoration: none;
+    display: inline;
+	margin: 0 0 0 15px;
+    padding: 20px;
+    box-sizing: border-box;
+	border: 2px solid #4F7FA3;
+	border-radius: 10px
+    
+}
+
+.menu__entrar:hover {
+    
+	text-decoration: none;
+    cursor: pointer;
+}
+
+.menu__vaga{
+    color: #ffffff;
+    background: #F9A31B;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+	text-decoration: none;
+    display: inline;
+	margin: 0 0 0 15px;
+    padding: 20px;
+    box-sizing: border-box;
+	border: 2px solid #F9A31B;
+	border-radius: 10px
+}
+
+.menu__vaga:hover {
+    
+	text-decoration: none;
+    cursor: pointer;
+}

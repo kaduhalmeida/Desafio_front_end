@@ -1,0 +1,87 @@
+.formulario {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-template-columns: 25% 25% 25% 25%;
+  grid-template-columns: 25% 25% 25% 25%;
+  -ms-grid-template-rows: 33.33% 33.33% 33.33%;
+  grid-template-rows: 33.33% 33.33% 33.33%;
+  -ms-grid-gap: 0.2rem;
+  grid-gap: 0.2rem;
+  border: 1px;
+  border-color: #ffffff;
+  border-style: solid;
+  padding: 4px;
+}
+
+.cadastro {
+  padding: 7px;
+  border: 2px;
+  border-color: black;
+  border-style: solid;
+  border-radius: 4px;
+  display: -ms-grid;
+  display: grid;
+  grid-column: 1 / 1;
+  grid-row: 1 / 5;
+  margin-top: 40;
+}
+
+.caixa__select {
+  border: 2px;
+  border-color: black;
+  border-style: hidden;
+  border-radius: 4px;
+}
+
+.selecao__cidade {
+  display: inline;
+  padding: 19px;
+  margin-right: 250px;
+}
+
+.selecao__empresa {
+  display: inline;
+  padding: 19px;
+  margin-left: -79px;
+}
+
+.caixa__box {
+  border: 17px;
+  border-color: black;
+  border-style: hidden;
+  border-radius: 4px;
+  display: inline;
+  position: initial;
+  font-size: 15px;
+  margin: 14px 0 0 14px;
+  padding-top: 15px;
+}
+
+.caixa__box {
+  padding-top: 15px;
+  display: block;
+}
+
+input {
+  width: 21%;
+}
+
+.botao {
+  margin-left: 10px;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.enviar {
+  margin-right: -190px;
+  width: 40%;
+  padding: 15px 0;
+  background: orange;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
